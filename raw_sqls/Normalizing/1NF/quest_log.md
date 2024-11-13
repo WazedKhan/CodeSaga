@@ -30,7 +30,9 @@ To achieve 1NF, the table was split into two tables: one for heroes and one for 
 | ------ | -------- | --------- | -------- | -------- | ---------------------------- | -------------- |
 | 1      | Aedan    | Legendary | Warrior  | 85       | A fearless leader of armies. | 1200 XP        |
 
-3. **Quests Table:**| QuestID | HeroID | QuestName                  | Difficulty | QuestStartDate | QuestEndDate | QuestDuration | Item                | Reward           |
+3. **Quests Table:**
+
+| QuestID | HeroID | QuestName                  | Difficulty | QuestStartDate | QuestEndDate | QuestDuration | Item                | Reward           |
    | ------- | ------ | -------------------------- | ---------- | -------------- | ------------ | ------------- | ------------------- | ---------------- |
    | 101     | 1      | Quest of the Shadowed Vale | Medium     | 2024-01-01     | 2024-01-10   | 9             | Sword               | Amulet of Light  |
    | 101     | 1      | Quest of the Shadowed Vale | Medium     | 2024-01-01     | 2024-01-10   | 9             | Shield              | Ring of Vitality |
