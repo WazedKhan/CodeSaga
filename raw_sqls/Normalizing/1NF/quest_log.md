@@ -24,9 +24,10 @@ Master 1NF decreed that  **every table must be restructured to have only one val
 **The Transformation:**
 To achieve 1NF, the table was split into two tables: one for heroes and one for quests.
 
-1. **Heroes Table:**| HeroID | HeroName | Rank      | HeroType | Strength | HeroBiography                | HeroExperience |
-   | ------ | -------- | --------- | -------- | -------- | ---------------------------- | -------------- |
-   | 1      | Aedan    | Legendary | Warrior  | 85       | A fearless leader of armies. | 1200 XP        |
+1. **Heroes Table:**
+| HeroID | HeroName | Rank      | HeroType | Strength | HeroBiography                | HeroExperience |
+| ------ | -------- | --------- | -------- | -------- | ---------------------------- | -------------- |
+| 1      | Aedan    | Legendary | Warrior  | 85       | A fearless leader of armies. | 1200 XP        |
 
 3. **Quests Table:**| QuestID | HeroID | QuestName                  | Difficulty | QuestStartDate | QuestEndDate | QuestDuration | Item                | Reward           |
    | ------- | ------ | -------------------------- | ---------- | -------------- | ------------ | ------------- | ------------------- | ---------------- |
